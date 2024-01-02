@@ -1,0 +1,1371 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nexxot_Prophecies_Magic_Items",
+				"abbreviation": "NE_P",
+				"full": "Nexxot - Prophecies",
+				"authors": [
+					"Nexxot, CaptainDJUli"
+				],
+				"convertedBy": [
+					"Nexxot"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0"
+			}
+		],
+		"status": "ready",
+		"dateAdded": 1701938868,
+		"dateLastModified": 1701938868
+	},
+	"item": [
+		{
+			"name": "Sica",
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"page": "1",
+			"type": "M",
+			"rarity": "uncommon",
+			"entries": [
+				"You have +1 bonus to attack and damage rolls made with this magic dagger.",
+				"Originally wielded by Rhye Duskmane.",
+				"The hilt has new leather straps around it, and the blackened blade has been sharpened, it feels like just looking at it could cut you. It has an extremely faint inscription in the flat of the blade: 'I'm a blade in the darkness'.",
+				"If you critically hit with this weapon you turn invisible until the end of your next turn."
+			],
+			"tier": "minor",
+			"value": 100000,
+			"weight": 1,
+			"dmg1": "1d4+1",
+			"dmgType": "P",
+			"range": "20/60",
+			"property": [
+				"T",
+				"F",
+				"L"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Bane Signet",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "when you see an enemy making an attack role"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"When a creature you can see within range, makes an attack role you can smite them with your Bane Signet.",
+				"The Creature must succeed on a Constitution saving throw or automatically fail their attack role, be knocked {@condition prone} and take {@damage 1d8} radiant damage."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"conditionInflict": [
+				"prone"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the number of {@dice d8} increases by 1 for every one level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Banish",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Reach out your hand and fire a blinding bolt of divine energy towards an enemy.",
+				"Target one creature you can see within range and roll a ranged spell attack roll. On a successful hit the targets takes {@damage 3d8} radiant damage. If the target is a summoned creature or undead it instead takes {@damage 4d8} damage and you have advantage on the attack roll."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Death Nova",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Target a creature within Range, which you can see, you put a curse of death on them, which triggers when they drop to 0 hit points.",
+				"When the Curse triggers, all hostile creatures in 10 feet radius must make a Dexterity Saving Throw or take {@damage 3d6} necrotic damage, if they succeed on the Saving Throw they take half as much damage."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the number of {@dice d6} increases by 1 for every one level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST",
+				"MT",
+				"S"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Deathly Swarm",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You send out a swarm of undead locust to a creature within range, that you can see. The swarm then jumps from the initial target to the closest other hostile creature within 30 feet. And then  jumps again from that second creature to a third other hostile creature. A creature can only be hit once by this spell per cast.",
+				"Each creature hit by the swarm must succeed a Constitution Saving Throw. A creature takes {@damage 2d8} necrotic damage on a failed save, or half as much damage on a successful one."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the number of {@dice d8} increases by 1 for every one level above 1st and the number of jumps increases by 1 for every two levels above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Empathy",
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Target a creature within range that you can see, you invoke an immense feeling of empathy in them. That Creature must succeed on a Charisma Saving Throw or be hexed with Empathy.",
+				"A creature hexed with Empathy takes {@damage 1d8} psychic damage each time it attacks and deals {@damage 1d4} less damage with each attack.",
+				"At the end of each of its turn the target can repeat the Saving Throw and if it succeeds is no longer hexed by Empathy.",
+				"A creature can't be hexed by more than one Empathy at a time."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the number of {@dice d8} and {@dice d4} increases by 1 for every 1 level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Fire Bolt Storm",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You call forth a rain of Fire Bolts.",
+				"Choose a point within range that you can see, everything in 10 foot radius has to succeed a Dexterity Saving Throw, or take {@damage 1d10} fire damage.",
+				"On subsequent turns, if you are still {@status concentration||concentrating} on this spell, you can repeat this effect at the same location as an action."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the number of {@dice d10} increases by 1 for every 1 level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"MT",
+				"Y"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Backfire",
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Target a creature within range that you can see, you create a conflict in their mind which makes their magic volatile. That Creature must succeed on a Wisdom Saving Throw or be hexed with Backfire.",
+				"A creature hexed with Backfire takes {@damage 1d10} psychic damage per Spell level each time it casts a Spell of 1st level or higher.",
+				"At the end of each turn the target can repeat the Saving Throw and if it succeeds it is no longer hexed by Backfire.",
+				"A creature can't be hexed by more than one Backfire at a time."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the number of {@dice d10} per Spell Level increases by 1 for every one level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL"
+			]
+		},
+		{
+			"name": "Lightning Javelin",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Conjure a lighting javelin in your hand an throw it in a straight line, passing through all creatures along its path to its target.",
+				"Target one creature you can see within range and roll a ranged spell attack roll. On a successful hit the targets takes {@damage 4d6} lighting damage. If there are any creatures between you and the target they must succeed on dexterity saving throw or also take the damage. If they save on the saving throw they only take half damage."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST",
+				"MT",
+				"L"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Meteor",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Target a creature within range that you can see, you evoke a meteor above them which crashes down.",
+				"Each creature in a 5 feet radius of the target must succeed on Dexterity Saving throw or take {@damage 6d6} fire damage and be knocked {@condition prone}. A creature that succeeds on the save only takes half the damage and is not knocked {@condition prone}."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"conditionInflict": [
+				"prone"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the number of {@dice d6} increases by 1 for every one level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Retribution",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Wreath yourself or allies in retaliatory holy light which punishes all those who harm you.",
+				"Target up to 3 allied creatures within range that you can see. If they get damaged by an enemy they immediately reflect back 33% of damage they took (minimum 1) to a maximum of 10 damage as radiant damage."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the number of targets increases by one for each slot level above 3rd and the maximum reflected damage increases by 5 for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			]
+		},
+		{
+			"name": "Ray of Judgement",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 3,
+						"upTo": true
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Target a point within range that you can see and call down a giant ray of holy light.",
+				"Until the end of your 3rd round after casting this, each creature which starts their turn or moves into a 15 feet radius around that point, must succeed on a Dexterity Saving Throw or take {@damage 6d6} radiant damage and start burning, taking {@damage 2d4} fire damage each turn for 3 turns. On a successful save they only take half damage and don't burn."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the number of {@dice d6} and rounds increases by 1 for every one level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"MT",
+				"Y"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Rodgort's Invocation",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Target a creature within range that you can see, you invoke the searing flames of Rodgort in an area centered around the target.",
+				"Each creature in a 30 feet radius of the target must succeed a Dexterity Saving Throw or take {@damage 10d10} fire damage and be set on fire until your next turn, a creature thats on fire must repeat the Saving Throw at the beginning of their turn or take another {@damage 4d6} fire Damage. A creature that succeeds on the initial save only takes half the damage and is not set on fire.",
+				"You cannot cast Spells of 2nd level or higher until the end of your next turn."
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the number of {@dice d8} and {@dice d6} increases by 1 for every one level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Read the Wind",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You focus your bond with nature to get insight into the air currents and the wind.\n\nFor the spells duration you add {@dice 1d4} to your Attack Rolls and Damage Rolls you do with ranged weapon attacks.\n\n"
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 3nd level or higher, the damage and attack roll bonus increases by {@dice 1d4} for each slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shielding Hands",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 2
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Envelop a friendly creature in spectral shielding hands, guarding them from damage.\n\nTarget one friendly creature within range that you can see, for the duration of the spell reduce all incoming damage by {@dice 1d4} plus your Spellcasting Ability Modifier.\n\nAt the end of the spell the creature gets healed for {@dice 2d4} plus your Spellcasting Ability Modifier.\n\n"
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, the number of {@dice 1d4} increases each by one for each slot level above 2nd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Orison of Healing",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You invigorate one friendly creature with the soothing rays of dawn.\n\nTarget one friendly creature within range that you can see. You heal them for {@dice 1d6} plus your Spellcasting Ability Modifier.\n\n"
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reversal of Fortune",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "when a friendly creature is about to take damage"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Twist the fate around one friendly creature, healing them instead of harming them.\n\nIf you see a friendly creature get damaged within your range you can use your reaction to roll {@dice 1d4} to subtract that result from the damage and instead heal them for the amount negated.\n\n"
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage mitigation and healing increases by {@dice 1d4} for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Healing Breeze",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 3,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You invoke a divine healing breeze around one friendly creature you can see, healing them over time.\n\nTarget one friendly creature you can see within range. At the end of each of your turns you heal them for {@dice 1d4} plus your Spellcasting Ability Modifier.\n\n"
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d4} for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Infuse Health",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You sacrifice some of your health to mend another creature's injuries. You take 50% of your current health as necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to the necrotic damage you take.\n\n "
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a drop of your own blood",
+					"consume": true
+				}
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 10% for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Symbol of Wrath",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Sear a holy symbol of wrath on the ground around you, smiting all hostile creatures within range every turn.\n\nWhen you cast this spell and at the beginning of you subsequent turns, every hostile creature within the radius of the initial cast must succeed of Dexterity Saving Throw or take {@damage 2d8} Radiant damage. Undead creatures have disadvantage on the Saving Throw.\n\n"
+			],
+			"source": "Nexxot_Prophecies_Magic_Items",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+					]
+				}
+			]
+		}
+	]
+}
