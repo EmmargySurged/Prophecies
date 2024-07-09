@@ -22,7 +22,7 @@
 				],
 				"convertedBy": [],
 				"color": "804000",
-				"version": "1.0.1"
+				"version": "1.0.0"
 			}
 		],
 		"status": "ready",
@@ -47607,14 +47607,22 @@
 			]
 		},
 		{
-			"name": "\"\"",
+			"name": "Test McTestface",
 			"size": [
-				"M"
+				"S"
 			],
-			"type": "aberration",
+			"type": {
+				"type": "fey",
+				"swarmSize": "T"
+			},
 			"source": "GuildWars",
 			"alignment": [
-				"N"
+				{
+					"alignment": [
+						"N"
+					],
+					"chance": 12
+				}
 			],
 			"ac": [
 				10
@@ -47624,16 +47632,17 @@
 				"formula": "1d8"
 			},
 			"speed": {
-				"walk": 30
+				"walk": 30,
+				"burrow": 12
 			},
 			"str": 10,
-			"dex": 10,
+			"dex": 12,
 			"con": 10,
 			"int": 10,
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0"
+			"cr": "7"
 		}
 	],
 	"legendaryGroup": [
