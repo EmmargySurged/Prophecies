@@ -1,3 +1,16 @@
+
+Manage Homebrew
+
+View, Add, and Delete Homebrew.
+
+    Home
+    Rules
+    Player
+    Dungeon Master
+    References
+    Utilities
+    Settings
+
 {
 	"_meta": {
 		"sources": [
@@ -39791,19 +39804,19 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/2/2b/Bone_Horror.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Bone_Horror.jpg"
 						}
 					}
 				]
 			},
+			"uniqueId": "be44691c-f1a7-458a-992f-077ecfc69074",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://wiki.guildwars.com/images/2/2b/Bone_Horror.jpg"
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokes/Bone_Horror_Token.png"
 			},
 			"damageTags": [
 				"B"
-			],
-			"uniqueId": "be44691c-f1a7-458a-992f-077ecfc69074"
+			]
 		},
 		{
 			"name": "Charr",
@@ -47958,53 +47971,6 @@
 				"S"
 			],
 			"uniqueId": "35723bd0-b2a5-4e6f-8e32-079cafc43868"
-		},
-		{
-			"uniqueId": "e21bca30-06a5-43e6-9fa2-06ce262ade76",
-			"name": "Test McTestface",
-			"size": [
-				"S"
-			],
-			"type": {
-				"type": "fey",
-				"swarmSize": "T"
-			},
-			"source": "GuildWars",
-			"alignment": [
-				{
-					"alignment": [
-						"N"
-					],
-					"chance": 12
-				}
-			],
-			"ac": [
-				10
-			],
-			"hp": {
-				"average": 4,
-				"formula": "1d8"
-			},
-			"speed": {
-				"walk": 30,
-				"burrow": 12
-			},
-			"str": 10,
-			"dex": 12,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
-			"cha": 10,
-			"passive": 10,
-			"cr": "7",
-			"trait": [
-				{
-					"name": "Angelic Weapons (Solar)",
-					"entries": [
-						"The test mctestface's weapon attacks are magical. When the test mctestface hits with any weapon, the weapon deals an extra {@dice 6d8} radiant damage."
-					]
-				}
-			]
 		}
 	],
 	"legendaryGroup": [
@@ -50886,3 +50852,4 @@
 		}
 	]
 }
+
