@@ -22,12 +22,12 @@
 				],
 				"convertedBy": [],
 				"color": "804000",
-				"version": "1.0.1"
+				"version": "1.0.0"
 			}
 		],
 		"status": "ready",
 		"dateAdded": 1701938868,
-		"dateLastModified": 1720536707
+		"dateLastModified": 1701938868
 	},
 	"spell": [
 		{
@@ -142,7 +142,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "a035f2c0-5b30-499f-a4ac-38a8e7713f3e"
 		},
 		{
 			"name": "Gash",
@@ -302,7 +303,8 @@
 			],
 			"conditionInflict": [
 				"bleeding|guildwars"
-			]
+			],
+			"uniqueId": "b4c40507-3a53-4c2a-8491-756b09d02acb"
 		},
 		{
 			"name": "Wild Blow",
@@ -395,7 +397,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the number of attacks increases by 1 for every two slot levels above 5th. "
 					]
 				}
-			]
+			],
+			"uniqueId": "61e5c085-4237-4449-8d4d-7d893132fe7c"
 		},
 		{
 			"name": "Flare",
@@ -546,7 +549,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "5ea4ac17-a688-4d2d-bd6d-7e3549567883"
 		},
 		{
 			"name": "Frenzy",
@@ -651,7 +655,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "bb19aa39-1cc9-47cf-9a12-8fa30ca820d8"
 		},
 		{
 			"name": "Bane Signet",
@@ -772,7 +777,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"uniqueId": "653b029c-2c45-4701-8f6b-ba972a6ce59b"
 		},
 		{
 			"name": "Banish",
@@ -899,7 +905,8 @@
 					"name": "Smiting Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "bc6c82b6-0ab7-424a-aa03-3543c24e340c"
 		},
 		{
 			"name": "Death Nova",
@@ -1058,7 +1065,8 @@
 					"name": "Death Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "4decd93f-b460-4934-b866-367e197f1ec8"
 		},
 		{
 			"name": "Deathly Swarm",
@@ -1212,7 +1220,8 @@
 					"name": "Death Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "729777f6-6032-402f-b0a3-acb4694855c6"
 		},
 		{
 			"name": "Empathy",
@@ -1365,7 +1374,8 @@
 					"name": "Domination Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "db3e8b80-e268-4b58-8487-6aaf55af589c"
 		},
 		{
 			"name": "Fire Bolt Storm",
@@ -1520,7 +1530,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "d2b3eaf1-b277-4764-a29d-e97a26271fc2"
 		},
 		{
 			"name": "Backfire",
@@ -1658,7 +1669,8 @@
 					"name": "Domination Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "52cae327-efa2-4982-8ff8-f2fd9c581890"
 		},
 		{
 			"name": "Lightning Javelin",
@@ -1797,7 +1809,8 @@
 					"name": "Air Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "7a7caa95-b2e9-4778-84cd-d5a8623570e4"
 		},
 		{
 			"name": "Meteor",
@@ -1928,7 +1941,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "25c4e108-c3cf-4b79-b421-425d36e5464a"
 		},
 		{
 			"name": "Retribution",
@@ -2039,7 +2053,8 @@
 					"name": "Smiting Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c57d0d23-28db-4b05-86ac-c880c4f2f2ff"
 		},
 		{
 			"name": "Rodgort's Invocation",
@@ -2164,7 +2179,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "ec92c20a-9252-4e3a-880c-02ebb051a576"
 		},
 		{
 			"name": "Read the Wind",
@@ -2265,7 +2281,8 @@
 			],
 			"meta": {
 				"ritual": true
-			}
+			},
+			"uniqueId": "3cb3de74-145c-4dbe-b17e-ad7e06d0c155"
 		},
 		{
 			"name": "Shielding Hands",
@@ -2392,7 +2409,8 @@
 					"name": "Protection Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "7b78bc56-4ce4-48bf-be07-46e8472c6f8b"
 		},
 		{
 			"name": "Orison of Healing",
@@ -2528,7 +2546,8 @@
 					"name": "Healing Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "3902f65d-2937-456c-a187-7dcbbca3f3de"
 		},
 		{
 			"name": "Reversal of Fortune",
@@ -2666,7 +2685,8 @@
 					"name": "Protection Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "1d741213-6e4c-4772-8a5e-00e9ce8d4b1d"
 		},
 		{
 			"name": "Healing Breeze",
@@ -2811,7 +2831,8 @@
 					"name": "Healing Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "eac49185-62b3-4dc3-8cd3-4c199291dad1"
 		},
 		{
 			"name": "Infuse Health",
@@ -2954,7 +2975,8 @@
 					"name": "Healing Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c2778a41-74f2-483a-93eb-55390cf5d401"
 		},
 		{
 			"name": "Symbol of Wrath",
@@ -3083,7 +3105,8 @@
 					"name": "Smiting Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "1f79aea7-403d-4664-b98f-9c8710bcf187"
 		},
 		{
 			"name": "Animate Bone Horror",
@@ -3232,7 +3255,8 @@
 					"name": "Death Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "1179f130-348d-436b-a6b1-bd75b2d3457e"
 		},
 		{
 			"name": "Blood Reneawl",
@@ -3381,7 +3405,8 @@
 					"name": "Blood Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "4f656f05-50ac-442d-84f9-dfdbccad40d0"
 		},
 		{
 			"name": "Faintheartedness",
@@ -3549,7 +3574,8 @@
 					"name": "Curses",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "abc38e27-c504-436d-a4e3-c6761731d0d1"
 		},
 		{
 			"name": "Life Siphon",
@@ -3699,7 +3725,8 @@
 					"name": "Blood Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "879782ca-b472-4370-9a0a-83177826da8e"
 		},
 		{
 			"name": "Soul Barbs",
@@ -3867,7 +3894,8 @@
 					"name": "Curses",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "450f32b2-86ac-4960-9efe-6321acb12c3e"
 		},
 		{
 			"name": "Vampiric Gaze",
@@ -4011,7 +4039,8 @@
 					"name": "Blood Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c93f79c8-5eeb-4475-9d82-9a850068e433"
 		},
 		{
 			"name": "Vampire Touch",
@@ -4137,7 +4166,8 @@
 					"name": "Blood Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "6d69a084-5b3f-4e40-a7d7-28d4a68e61c3"
 		},
 		{
 			"name": "Lava Font",
@@ -4243,7 +4273,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "e5cfc93c-69ac-4784-b7cc-03c22fb43d10"
 		},
 		{
 			"name": "Ether Feast",
@@ -4383,7 +4414,8 @@
 					"name": "Inspiration Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "23ea922c-73ed-48e3-adf9-d96b7eee0490"
 		},
 		{
 			"name": "Glyph of Lesser Energy",
@@ -4493,7 +4525,8 @@
 					"name": "Energy Storage",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "e44e73e1-ccf0-4b50-b154-0842e8885658"
 		},
 		{
 			"name": "Cyclone Swing",
@@ -4602,7 +4635,8 @@
 					"name": "Axe Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "523cbea4-78b8-4875-b89c-8b3e63637704"
 		},
 		{
 			"name": "Charm Animal",
@@ -4721,7 +4755,8 @@
 					"name": "Beast Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "b72047b4-fd72-4123-a1b2-00c075905a2e"
 		},
 		{
 			"name": "Executioner's Strike",
@@ -4816,7 +4851,8 @@
 					"name": "Axe Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a6666181-bbd0-43ee-b260-db712aa44261"
 		},
 		{
 			"name": "Heavy Bash",
@@ -4928,7 +4964,8 @@
 					"name": "Hammer Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "fe06fb37-ff04-4bae-86e4-cad03cab1a2b"
 		},
 		{
 			"name": "Sever Artery",
@@ -5071,7 +5108,8 @@
 						"When you cast this spell using a spell slot of 2nd or 3rd level, the number of attacks increases by 1. When you cast this spell using a spell slot of 4th or 5th level, the number of attacks increases by 2. When you use a spell slot of 6th level or higher, the number of attacks increases by 3."
 					]
 				}
-			]
+			],
+			"uniqueId": "0d269354-2b45-4e53-9a59-9a1b4743328a"
 		},
 		{
 			"name": "Power Shot",
@@ -5161,7 +5199,8 @@
 					"name": "Marksmanship",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "91a03e6e-297b-49ea-8632-c25862c3698c"
 		},
 		{
 			"name": "Aura of Restoration",
@@ -5288,7 +5327,8 @@
 					"name": "Energy Storage",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "852d3aae-4e6f-4bea-a1e3-ebb6598a9209"
 		},
 		{
 			"name": "Blinding Flash",
@@ -5443,7 +5483,8 @@
 			],
 			"conditionInflict": [
 				"blinded"
-			]
+			],
+			"uniqueId": "a27d1b62-1f3d-4167-a5a6-d61a798db5e5"
 		},
 		{
 			"name": "Conjure Phantasm",
@@ -5577,7 +5618,8 @@
 					"name": "Illusion Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a75b1710-5435-46e6-b229-a0b4ad95f777"
 		},
 		{
 			"name": "Imagined Burden",
@@ -5727,7 +5769,8 @@
 					"name": "Illusion Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a8c3f199-7a02-46a4-9c35-f5556189f7ab"
 		},
 		{
 			"name": "Shatter Delusions",
@@ -5862,7 +5905,8 @@
 					"name": "Domination Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "30fd5f7d-3b65-498b-96af-d30009874f20"
 		},
 		{
 			"name": "Healing Signet",
@@ -5946,7 +5990,8 @@
 					"name": "Tactics",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "e7972c05-df98-42d0-9adf-c92cbb4f19dc"
 		},
 		{
 			"name": "Comfort Animal",
@@ -6054,7 +6099,8 @@
 					"name": "Beast Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c01c9f86-a33c-4dc4-bfab-b84c47ae2d4f"
 		},
 		{
 			"name": "Dual Shot",
@@ -6147,7 +6193,8 @@
 					"name": "Pre-Searing",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "690824e6-bace-4ad6-b177-b376ad36756e"
 		},
 		{
 			"name": "Ignite Arrows",
@@ -6260,7 +6307,8 @@
 			],
 			"meta": {
 				"ritual": true
-			}
+			},
+			"uniqueId": "b3690b63-1b26-4c41-9529-01aafb910932"
 		},
 		{
 			"name": "Point Blank Shot",
@@ -6350,7 +6398,8 @@
 					"name": "Expertise",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "9dd944b1-a2f1-459d-9eb0-38df43e94382"
 		},
 		{
 			"name": "Troll Unguent",
@@ -6452,7 +6501,8 @@
 					"name": "Wilderness Survival",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "ba716523-9f3d-4a7c-b914-9affb264c534"
 		},
 		{
 			"name": "Disrupting Chop",
@@ -6551,7 +6601,8 @@
 					"name": "Axe Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a274f493-7d8b-41b3-bc81-eb2fd644dfe8"
 		},
 		{
 			"name": "Kindle Arrows",
@@ -6679,7 +6730,8 @@
 			],
 			"meta": {
 				"ritual": true
-			}
+			},
+			"uniqueId": "f95c77e1-8ca6-4716-815d-8de2fd4031b7"
 		},
 		{
 			"name": "Judge's Insight",
@@ -6812,7 +6864,8 @@
 					"name": "Smiting Prayers",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "99ae663f-9f9e-4301-a1cb-2517adaa9f41"
 		},
 		{
 			"name": "Enfeebling Blood",
@@ -6983,7 +7036,8 @@
 			],
 			"conditionInflict": [
 				"weakness|guildwars|weakened"
-			]
+			],
+			"uniqueId": "184905e4-9323-4a76-9742-db8aebc20077"
 		},
 		{
 			"name": "Epidemic",
@@ -7114,7 +7168,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "3055b9f2-eeee-4f75-a3a6-038091243f76"
 		},
 		{
 			"name": "Enervating Charge",
@@ -7253,7 +7308,8 @@
 			],
 			"conditionInflict": [
 				"weakness|guildwars|weakened"
-			]
+			],
+			"uniqueId": "c9f23422-e9ac-4fb9-b029-51f01650d4a0"
 		},
 		{
 			"name": "Wary Stance",
@@ -7356,7 +7412,8 @@
 					"name": "Tactics",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "db868c02-0c16-44a9-8ae4-09f638a6a333"
 		},
 		{
 			"name": "Predator's Pounce",
@@ -7466,7 +7523,8 @@
 					"name": "Beast Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "48fa500b-7577-44a8-97df-ac8dced21a98"
 		},
 		{
 			"name": "Restore Life",
@@ -7579,7 +7637,8 @@
 					"name": "Healing Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "028486b2-de26-472c-b960-9a8d06aad545"
 		},
 		{
 			"name": "Insidious Parasite",
@@ -7731,7 +7790,8 @@
 					"name": "Curses",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "42edf0c6-3c3a-49d2-b5d3-480d4a4a32a5"
 		},
 		{
 			"name": "Physical Resistance",
@@ -7860,7 +7920,8 @@
 					"name": "Inspiration Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "44e131f7-8856-4b53-abe1-714f71e6819c"
 		},
 		{
 			"name": "Immolate",
@@ -7993,7 +8054,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "77b566ac-9fa3-4c59-9d2d-d9d8c9b1c207"
 		},
 		{
 			"name": "Hunter's Shot",
@@ -8092,7 +8154,8 @@
 					"name": "Marksmanship",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "2255b227-6d0b-405d-a2f7-709475e0b3a4"
 		},
 		{
 			"name": "Heal Area",
@@ -8210,7 +8273,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "94c9dd8b-426f-4540-af8f-d9efdcc50335"
 		},
 		{
 			"name": "Dark Pact",
@@ -8405,7 +8469,8 @@
 				"v": true,
 				"s": true,
 				"m": "a drop of your own blood and a half dozen candles"
-			}
+			},
+			"uniqueId": "e196fa04-bf1c-4f1e-b4ea-a757011c2d70"
 		},
 		{
 			"name": "Chaos Storm",
@@ -8622,7 +8687,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "7ca88d92-1c6b-4074-b4ae-14240c4c508a"
 		},
 		{
 			"name": "Armor of Earth",
@@ -8750,7 +8816,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number subtracted increases by {@dice 1d4} for each slot level above 2nd and the % decreases by 5% for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "666df17c-b8cf-4ac1-871c-b4edf5a1ec1e"
 		},
 		{
 			"name": "\"For Great Justice!\"",
@@ -8928,7 +8995,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "b04df7ec-eb3c-42db-bcc7-7d42dd069b1d"
 		},
 		{
 			"name": "Call of Haste",
@@ -9029,7 +9097,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the speed increases by 10 feet for each slot level above 3rd and the number of attacks increases by 1 for every three slot levels above 3rd. "
 					]
 				}
-			]
+			],
+			"uniqueId": "257925a2-ebe1-463d-bbe4-ced527d55eda"
 		},
 		{
 			"name": "Heal Party",
@@ -9146,7 +9215,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "3b6659ef-2cd0-4e88-9152-41f1482e2e13"
 		},
 		{
 			"name": "Mark of Pain",
@@ -9299,7 +9369,8 @@
 			],
 			"savingThrow": [
 				"wisdom"
-			]
+			],
+			"uniqueId": "ed7f94d4-c223-45e8-93de-fc6fc94bc61a"
 		},
 		{
 			"name": "Distortion",
@@ -9426,7 +9497,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "70583233-24ee-4253-9507-4c70d16f0645"
 		},
 		{
 			"name": "\"Fear Me!\"",
@@ -9526,7 +9598,8 @@
 					"name": "Tactics",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "406ce556-151f-450c-b062-8f85780ad30b"
 		},
 		{
 			"name": "Earth Attunement",
@@ -9670,7 +9743,8 @@
 						"When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your {@status concentration} on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your {@status concentration} on the spell for up to 24 hours."
 					]
 				}
-			]
+			],
+			"uniqueId": "e8fb198d-6d27-467b-a408-d6d205859036"
 		},
 		{
 			"name": "Dismember",
@@ -9774,7 +9848,8 @@
 						"When you cast this spell using a spell slot of 3rd or 4th level, the number of attacks increases by 1. When you cast this spell using a spell slot of 5th or 6th level, the number of attacks increases by 2. When you use a spell slot of 7th level or higher, the number of attacks increases by 3."
 					]
 				}
-			]
+			],
+			"uniqueId": "f0860e06-083b-41ed-876d-7ef4486e8948"
 		},
 		{
 			"name": "Jagged Strike",
@@ -9956,7 +10031,8 @@
 					"name": "Dagger Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "6b8ae1ef-158e-4c1a-9110-d85f6177f143"
 		},
 		{
 			"name": "Fox Fangs",
@@ -10095,7 +10171,8 @@
 					"name": "Dagger Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a2265dcc-913d-4158-a37d-64fc6ebba6a6"
 		},
 		{
 			"name": "Horns of the Ox",
@@ -10239,7 +10316,8 @@
 					"name": "Dagger Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "734f8430-e390-4e9d-ab0a-9a54aa8c9532"
 		},
 		{
 			"name": "Scorpion Wire",
@@ -10396,7 +10474,8 @@
 			],
 			"savingThrow": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "27cf7ba7-8a8a-4b5a-97cb-b7dfdf030f76"
 		},
 		{
 			"name": "Distracting Shot",
@@ -10486,7 +10565,8 @@
 					"name": "Expertise",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "08bf344c-b653-4c2f-85dc-7a7f2d2b7252"
 		},
 		{
 			"name": "Parasitic Bond",
@@ -10718,7 +10798,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "cc688a8b-3f9d-4a6a-ac42-61189a7b3478"
 		},
 		{
 			"name": "Diversion",
@@ -10850,7 +10931,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "a9461b5f-73eb-4327-b0f8-5584da9e7acd"
 		},
 		{
 			"name": "Eruption",
@@ -10987,7 +11069,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "a1744be1-323c-438c-a554-acd9055550b6"
 		},
 		{
 			"name": "Endure Pain",
@@ -11087,7 +11170,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, your hit points increase by an additional {@dice 2d10} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "868f4a73-9a33-447e-abd2-f7caf51c260f"
 		},
 		{
 			"name": "Lightning Reflexes",
@@ -11178,7 +11262,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 round for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "5712ac8b-581f-4423-8255-f4afbf902ae9"
 		},
 		{
 			"name": "Live Vicariously",
@@ -11301,7 +11386,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 2d4} for each slot level above 2nd and the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "7439b565-3efe-4fee-a1b8-1444db4a9c53"
 		},
 		{
 			"name": "Putrid Explosion",
@@ -11438,7 +11524,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 2d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "d0d08872-c784-4527-8fb4-d5fe8d4c1bb2"
 		},
 		{
 			"name": "Energy Burn",
@@ -11569,7 +11656,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "739cd62b-d506-448a-a769-6c45f32b9b82"
 		},
 		{
 			"name": "Frozen Burst",
@@ -11714,7 +11802,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 2d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "bb8a1724-a775-4de1-b951-856cbb6813eb"
 		},
 		{
 			"name": "Hamstring",
@@ -11962,7 +12051,8 @@
 					"name": "Swordsmanship",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "779d45a5-6400-4cde-9977-28534e5dad8b"
 		},
 		{
 			"name": "Favorable Winds",
@@ -12059,7 +12149,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block, and the damage increases by {@dice 1d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "6cd40088-8de2-4330-bbbf-9abdd1d2f130"
 		},
 		{
 			"name": "Mending Bond",
@@ -12180,7 +12271,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the healing increases each by {@dice 1d4} for each slot level above 3rd and the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "a2cdba4d-561b-4181-aeb2-8f50ccf77581"
 		},
 		{
 			"name": "Shadow Strike",
@@ -12309,7 +12401,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "5b2ae490-4638-48cb-8f08-0fc4512ead3a"
 		},
 		{
 			"name": "Energy Tap",
@@ -12437,7 +12530,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the reduction of initiative increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "ec34163f-0676-4def-a784-9100466ea893"
 		},
 		{
 			"name": "Ice Spikes",
@@ -12582,7 +12676,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "1baf91aa-38f3-407e-98b0-4b6c04051321"
 		},
 		{
 			"name": "Mighty Blow",
@@ -12680,7 +12775,8 @@
 						"When you cast this spell using a spell slot of 4th or 5th level, the number of attacks increases by 1. When you cast this spell using a spell slot of 6th or 7th level, the number of attacks increases by 2. When you use a spell slot of 8th level or higher, the number of attacks increases by 3."
 					]
 				}
-			]
+			],
+			"uniqueId": "341765cd-71b1-471d-aa72-dbb7646dacd5"
 		},
 		{
 			"name": "Feral Lunge",
@@ -12793,7 +12889,8 @@
 			],
 			"conditionInflict": [
 				"bleeding|guildwars"
-			]
+			],
+			"uniqueId": "619a0ff6-06c4-4258-a861-12990e19c85c"
 		},
 		{
 			"name": "Purge Conditions",
@@ -12895,7 +12992,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "5a171199-77e4-4841-8b8d-3514f70b0953"
 		},
 		{
 			"name": "Soul Feast",
@@ -13041,7 +13139,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "6c90e6e0-54e7-431a-8fa9-01366d5ff5e4"
 		},
 		{
 			"name": "Illusion of Haste",
@@ -13224,7 +13323,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "4b5df94d-03d0-4ff7-9628-c0d26738b117"
 		},
 		{
 			"name": "Magnetic Aura",
@@ -13355,7 +13455,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "73518688-ff87-42d9-bea2-4662fa60047a"
 		},
 		{
 			"name": "Penetrating Blow",
@@ -13451,7 +13552,8 @@
 					"name": "Axe Mastery",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c790ae48-1f6c-4435-b895-c4820d293dcf"
 		},
 		{
 			"name": "Dodge",
@@ -13549,7 +13651,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the AC bonus increases by 1 for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "85a70dc2-128d-493a-a1aa-e01820ba3eba"
 		},
 		{
 			"name": "Shield Stance",
@@ -13648,7 +13751,8 @@
 			},
 			"miscTags": [
 				"MAC"
-			]
+			],
+			"uniqueId": "a07d8f5a-10b8-4b81-9e2d-27f3dfee48a8"
 		},
 		{
 			"name": "Penetrating Attack",
@@ -13742,7 +13846,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "f0116909-f1fb-49a1-93d5-9fdc22b89c5b"
 		},
 		{
 			"name": "Mantra of Flame",
@@ -13878,7 +13983,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "6b8e3f23-459f-4a4d-bace-5ad5e5751096"
 		},
 		{
 			"name": "Mantra of Frost",
@@ -14014,7 +14120,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "c42ea0a0-a8e1-4db5-9c55-bb8831a87916"
 		},
 		{
 			"name": "Mantra of Lightning",
@@ -14150,7 +14257,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "454dd1b7-4ac9-4a67-a645-1b26e1402ae1"
 		},
 		{
 			"name": "Mantra of Earth",
@@ -14286,7 +14394,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "2b9904bc-adb8-43c1-be55-a9e380c5a1ed"
 		},
 		{
 			"name": "Elemental Resistance",
@@ -14415,7 +14524,8 @@
 					"name": "Inspiration Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "2a6e5d16-c405-45d5-b888-9aa276a7bcef"
 		},
 		{
 			"name": "Conjure Flame",
@@ -14540,7 +14650,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"uniqueId": "d65cfeb7-eb53-440e-80e5-6f57497b54ec"
 		},
 		{
 			"name": "Conjure Frost",
@@ -14680,7 +14791,8 @@
 			],
 			"damageInflict": [
 				"cold"
-			]
+			],
+			"uniqueId": "baa8d93b-1201-43b7-90a9-449f073b9608"
 		},
 		{
 			"name": "Conjure Lightning",
@@ -14809,7 +14921,8 @@
 			],
 			"damageInflict": [
 				"lightning"
-			]
+			],
+			"uniqueId": "f88f346d-88f5-451d-b0dd-766bf9c0f2db"
 		},
 		{
 			"name": "Eviscerate",
@@ -14918,7 +15031,8 @@
 						"When you cast this spell using a spell slot of 3rd or 4th level, the number of attacks increases by 1. When you cast this spell using a spell slot of 5th or 6th level, the number of attacks increases by 2. When you use a spell slot of 7th level or higher, the number of attacks increases by 3."
 					]
 				}
-			]
+			],
+			"uniqueId": "da809315-73dc-4bcd-8454-62964ee78b8d"
 		},
 		{
 			"name": "Shield of Judgment",
@@ -15039,7 +15153,8 @@
 			],
 			"areaTags": [
 				"ST"
-			]
+			],
+			"uniqueId": "7cbf3352-6358-4bc3-9a56-0b666c0fdf83"
 		},
 		{
 			"name": "Lingering Curse",
@@ -15187,7 +15302,8 @@
 			"areaTags": [
 				"MT",
 				"S"
-			]
+			],
+			"uniqueId": "23c9a272-2541-449b-939a-5fe3507b72a5"
 		},
 		{
 			"name": "Shatter Hex",
@@ -15307,7 +15423,8 @@
 			],
 			"areaTags": [
 				"MT"
-			]
+			],
+			"uniqueId": "545ca2e2-1917-4733-ad8e-331b4cf83e23"
 		},
 		{
 			"name": "Shatter Enchantment",
@@ -15427,7 +15544,8 @@
 			],
 			"areaTags": [
 				"MT"
-			]
+			],
+			"uniqueId": "b9561668-fb56-4d5f-bef0-5accf1bf6d11"
 		},
 		{
 			"name": "Power Block",
@@ -15551,7 +15669,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used and the duration increases by 1 round for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "e4c794ea-cf9c-4f01-996a-5075c656acd7"
 		},
 		{
 			"name": "Meteor Shower",
@@ -15666,7 +15785,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the bludgeoning damage or the fire damage (your choice) increases by {@dice 1d6} for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "1ebc1e69-3195-45f2-85d4-b7da384d1806"
 		},
 		{
 			"name": "Called Shot",
@@ -15751,7 +15871,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "623176f6-cbe2-4296-804c-38b2734c0d62"
 		},
 		{
 			"name": "Quick Shot",
@@ -15828,7 +15949,8 @@
 					"name": "Artificer Initiate",
 					"source": "TCE"
 				}
-			]
+			],
+			"uniqueId": "41eb7afd-7865-4ba1-abc9-adbfb16585ec"
 		},
 		{
 			"name": "Flurry",
@@ -15927,7 +16049,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 1 round for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "e7ac1b6d-ac07-49c2-997e-525b51efe77b"
 		},
 		{
 			"name": "Skull Crack",
@@ -16025,7 +16148,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a4f313ae-dfc0-4a0d-ace6-e90552f6258d"
 		},
 		{
 			"name": "Weaken Armor",
@@ -16188,7 +16312,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the radius of the spell increases by 5 feet for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "bd4759a8-6050-4638-ae3d-973d4d295312"
 		},
 		{
 			"name": "Virulence",
@@ -16338,7 +16463,8 @@
 			"conditionInflict": [
 				"disease|guildwars|diseased",
 				"weakness|guildwars|weakened"
-			]
+			],
+			"uniqueId": "5309bef3-3ec5-47ca-9599-06b7d70acdac"
 		},
 		{
 			"name": "Inferno",
@@ -16462,7 +16588,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "823f59d4-ffab-4a97-8c33-98eb814881f9"
 		},
 		{
 			"name": "Phoenix",
@@ -16588,7 +16715,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d6} for each slot level above 4th."
 					]
 				}
-			]
+			],
+			"uniqueId": "e9d8415c-55ac-42a6-b13e-603a3f58657f"
 		},
 		{
 			"name": "Resurrect",
@@ -16703,7 +16831,8 @@
 			},
 			"conditionInflict": [
 				"incapacitated"
-			]
+			],
+			"uniqueId": "4184db7d-af9f-4e5d-912a-29de734defeb"
 		},
 		{
 			"name": "Shield of Deflection",
@@ -16823,7 +16952,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the AC bonus increases by 1 for each slot level above 5th and the number subtracted increases by {@dice 1d4} for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "4bb07f7a-e6c0-40dc-9ab2-98dae466fb57"
 		},
 		{
 			"name": "Crippling Anguish",
@@ -16952,7 +17082,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d10} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "c5788d40-d591-437f-891b-5ca7b1203840"
 		},
 		{
 			"name": "Lightning Orb",
@@ -17080,7 +17211,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
 					]
 				}
-			]
+			],
+			"uniqueId": "df5327f6-fa5e-4cb5-81a0-a863c8162a26"
 		},
 		{
 			"name": "Lightning Strike",
@@ -17239,7 +17371,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "b06d930a-e2cc-4cc2-8c62-6bde22a7337c"
 		},
 		{
 			"name": "Lightning Surge",
@@ -17381,7 +17514,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd. "
 					]
 				}
-			]
+			],
+			"uniqueId": "9baff03f-dcf4-4a14-99a0-fd85057775ff"
 		},
 		{
 			"name": "Resurrection Signet",
@@ -17533,7 +17667,8 @@
 					"consume": true,
 					"cost": 6000000
 				}
-			}
+			},
+			"uniqueId": "037b942e-e22a-4990-9a35-9671e167b52b"
 		},
 		{
 			"name": "Signet of Capture (Cantrip)",
@@ -17654,7 +17789,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "2e67f5ca-c724-4e38-b192-70f271a2103a"
 		},
 		{
 			"name": "Signet of Capture (1st level)",
@@ -17783,7 +17919,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "47ed7970-994f-463b-a06e-32428c1d504d"
 		},
 		{
 			"name": "Signet of Capture (2nd level)",
@@ -17912,7 +18049,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c558588f-5df4-4b40-87e9-c95d85c8c15f"
 		},
 		{
 			"name": "Signet of Capture (3rd level)",
@@ -18041,7 +18179,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "77f4e69d-8a4d-42f0-82c7-0757df2cd4dd"
 		},
 		{
 			"name": "Signet of Capture (4th level)",
@@ -18170,7 +18309,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "057a2e8c-6633-4d07-880c-b1ae3a39deb6"
 		},
 		{
 			"name": "Signet of Capture (5th level)",
@@ -18275,7 +18415,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c2ece7be-5294-4512-b947-a3d40f5e087e"
 		},
 		{
 			"name": "Signet of Capture (6th level)",
@@ -18368,7 +18509,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "2ee67814-7c9a-4d5c-89fb-2d45622a4ce1"
 		},
 		{
 			"name": "Signet of Capture (7th level)",
@@ -18461,7 +18603,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "2b9094b2-c5d8-45b5-8cbb-8287418f620c"
 		},
 		{
 			"name": "Signet of Capture (8th level)",
@@ -18554,7 +18697,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "8beea170-ce8d-47ee-810a-a18a65e2f94a"
 		},
 		{
 			"name": "Signet of Capture (9th level)",
@@ -18647,7 +18791,8 @@
 					"name": "No Attribute",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "ff17646a-15b7-4bda-8747-e0e7e6cce1a7"
 		},
 		{
 			"name": "Counter Blow",
@@ -18754,7 +18899,8 @@
 						"When you cast this spell using a spell slot of 2nd or 3rd level, the number of attacks increases by 1. When you cast this spell using a spell slot of 4th or 5th level, the number of attacks increases by 2. When you use a spell slot of 6th level or higher, the number of attacks increases by 3."
 					]
 				}
-			]
+			],
+			"uniqueId": "81bbdb63-b63f-46e7-aef7-a227702d7386"
 		},
 		{
 			"name": "Backbreaker",
@@ -18856,7 +19002,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"uniqueId": "fb0115cf-6995-45ab-a3cd-b47961795e5d"
 		},
 		{
 			"name": "Heal Other",
@@ -18973,7 +19120,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 2d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "0ef0e946-a935-431c-bae7-acaffcf9628f"
 		},
 		{
 			"name": "Healing Hands",
@@ -19099,7 +19247,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the healing increases by {@dice 2d4} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "7a53b500-63c0-432a-a6ef-e95c6f38d5ab"
 		},
 		{
 			"name": "Crude Swing",
@@ -19202,7 +19351,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "a4c1e3c5-cc68-4b01-bd82-2b555613cf1d"
 		},
 		{
 			"name": "Warrior's Endurance",
@@ -19305,7 +19455,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the increase of initiative increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "21fb2b6a-55e2-4471-b5f9-b409bac5f253"
 		},
 		{
 			"name": "Staggering Blow",
@@ -19414,7 +19565,8 @@
 						"When you cast this spell using a spell slot of 2nd or 3rd level, the number of attacks increases by 1. When you cast this spell using a spell slot of 4th or 5th level, the number of attacks increases by 2. When you use a spell slot of 6th level or higher, the number of attacks increases by 3."
 					]
 				}
-			]
+			],
+			"uniqueId": "86c4c089-954e-4f89-8f9e-82bb104e4f81"
 		},
 		{
 			"name": "Overbearing Smash",
@@ -19512,7 +19664,8 @@
 			],
 			"miscTags": [
 				"AAD"
-			]
+			],
+			"uniqueId": "dae0a564-53b6-4a48-8911-ede50625aa0f"
 		},
 		{
 			"name": "Magehunter's Smash",
@@ -19623,7 +19776,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "8f592221-10f3-482b-9660-27c095d04508"
 		},
 		{
 			"name": "Power Attack",
@@ -19717,7 +19871,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "bce04ed5-3f50-4ef7-a7f0-92cbc9ec84ad"
 		},
 		{
 			"name": "Sprint",
@@ -19805,7 +19960,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "c4a4d909-4ea5-4b54-a681-f1944f3233cd"
 		},
 		{
 			"name": "\"Watch Yourself!\"",
@@ -19905,7 +20061,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number subtracted increases by {@dice 1d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "c31231c0-dae2-49f6-87b9-49407d610952"
 		},
 		{
 			"name": "Quickening Zephyr",
@@ -20054,7 +20211,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block and when you cast this spell using a spell slot of 4th or 5th level, the duration increases to 8 hours. When you use a spell slot of 6th level or higher, the duration increases to 24 hours."
 					]
 				}
-			]
+			],
+			"uniqueId": "489ae994-3d68-4256-8956-876d54d97ad2"
 		},
 		{
 			"name": "Smite",
@@ -20161,7 +20319,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "8838afb5-863f-401d-b23b-6d6114b23d1e"
 		},
 		{
 			"name": "Strength of Honor",
@@ -20271,7 +20430,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d6} for each slot level above 2nd and the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "fb4ce736-00ca-458a-9cce-c682aa0674a8"
 		},
 		{
 			"name": "Vital Blessing",
@@ -20403,7 +20563,8 @@
 					"name": "Protection Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "690743b6-5c55-44a2-86c5-df25627ae17a"
 		},
 		{
 			"name": "Shadow of Fear",
@@ -20546,7 +20707,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the radius of the spell increases by 5 feet for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "381f5343-5187-4442-96f3-c97d7825a486"
 		},
 		{
 			"name": "Vile Touch",
@@ -20810,7 +20972,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "7f454c73-c112-4bed-bf98-67340ec75126"
 		},
 		{
 			"name": "Phantom Pain",
@@ -20942,7 +21105,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d10} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "d49e7fb4-df25-405c-9d35-bfb408f908da"
 		},
 		{
 			"name": "Power Leak",
@@ -21057,7 +21221,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used - 1, and the reduction of initiative increases by {@dice 1d12} for each slot level above 4th."
 					]
 				}
-			]
+			],
+			"uniqueId": "9a614ded-f820-4f79-a034-4b468540f22d"
 		},
 		{
 			"name": "Shard Storm",
@@ -21217,7 +21382,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st and the duration increases by 1 round for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "3c6bfea6-9d8e-4397-852c-994ef483b866"
 		},
 		{
 			"name": "Ward Against Elements",
@@ -21341,7 +21507,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number subtracted increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "e8402962-d900-4b0e-b621-2b19129b84b2"
 		},
 		{
 			"name": "Minor Fireball",
@@ -21461,7 +21628,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "05f8b40c-5b89-49c2-8458-9ea2f0a006f6"
 		},
 		{
 			"name": "Fire Attunement",
@@ -21609,7 +21777,8 @@
 					"name": "Fire Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "9558e08a-3eaa-44fa-9a70-39cbb9485d28"
 		},
 		{
 			"name": "Air Attunement",
@@ -21761,7 +21930,8 @@
 					"name": "Air Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "d4d57ac2-f50d-411a-ad16-3f359cee5616"
 		},
 		{
 			"name": "Water Attunement",
@@ -21916,7 +22086,8 @@
 					"name": "Water Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "589ccb03-6a44-45b4-abf3-8ae9492248ee"
 		},
 		{
 			"name": "Winter",
@@ -22014,7 +22185,8 @@
 			],
 			"meta": {
 				"ritual": true
-			}
+			},
+			"uniqueId": "18be5c76-9b9b-40b6-b069-9c9d3db9cbf3"
 		},
 		{
 			"name": "Divine Boon",
@@ -22125,7 +22297,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 2d4} for each slot level above 2nd and the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "73699340-c1fe-4d9d-9b6c-4d031b573300"
 		},
 		{
 			"name": "Defile Flesh",
@@ -22280,7 +22453,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "bc11f6c1-d512-41df-abdb-d6a28b2523f2"
 		},
 		{
 			"name": "Irresistible Blow",
@@ -22370,7 +22544,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number of attacks increases by 1 for every two slot levels above 2nd. "
 					]
 				}
-			]
+			],
+			"uniqueId": "320ed94a-a5c7-4630-9b56-5b5ba919148a"
 		},
 		{
 			"name": "Debilitating Shot",
@@ -22454,7 +22629,8 @@
 			"components": {
 				"s": true,
 				"m": "a ranged weapon worth at least 1 sp"
-			}
+			},
+			"uniqueId": "80120ee6-90f7-4df6-bf34-f08a277e0dcd"
 		},
 		{
 			"name": "Pacifism",
@@ -22566,7 +22742,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "9b238287-929a-495f-9371-667ae707d862"
 		},
 		{
 			"name": "Necrotic Traversal",
@@ -22713,7 +22890,8 @@
 			],
 			"conditionInflict": [
 				"corruption|guildwars|corrupted"
-			]
+			],
+			"uniqueId": "0e07fdb1-c0c1-43d1-ab05-e8bfcfae4201"
 		},
 		{
 			"name": "Ice Prison",
@@ -22847,7 +23025,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "de6f841a-6e0c-4f91-8fe1-155f75f0f0b8"
 		},
 		{
 			"name": "Seeking Blade",
@@ -22996,7 +23175,8 @@
 			"components": {
 				"s": true,
 				"m": "a melee weapon worth at least 1 sp"
-			}
+			},
+			"uniqueId": "ee18b321-3dcd-499a-b31d-abe0be426f46"
 		},
 		{
 			"name": "Melandru's Assault",
@@ -23095,7 +23275,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for each slot level above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "dbc01384-7c62-44da-a9a8-a7ce38bec6ca"
 		},
 		{
 			"name": "Vigorous Spirit",
@@ -23233,7 +23414,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the healing increases each by {@dice 1d4} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "aac81ff5-dcad-45fd-a35d-b2ca10af4653"
 		},
 		{
 			"name": "Well of Blood",
@@ -23352,7 +23534,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases each by {@dice 2d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "29df206e-9eae-4d73-af47-f6f47c50e715"
 		},
 		{
 			"name": "Galrath Slash",
@@ -23461,7 +23644,8 @@
 					"name": "Swordsmanship",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "a546344c-3123-49f1-a9d1-377bbd16cee2"
 		},
 		{
 			"name": "Bull's Charge",
@@ -23567,7 +23751,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the speed increases by 10 feet for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "f47e9960-ecf2-4d0e-9e37-54c8756df3d3"
 		},
 		{
 			"name": "Channeling",
@@ -23707,7 +23892,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the radius of the spell increases by 5 feet for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "bad81903-a95d-4f66-8d53-0e9eb2dabde3"
 		},
 		{
 			"name": "Ward Against Foes",
@@ -23831,7 +24017,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the radius of the spell increases by 5 feet for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "2324761b-b48d-4b2f-a711-26c774e87fcd"
 		},
 		{
 			"name": "Bonetti's Defense",
@@ -23928,7 +24115,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "333986ea-0793-48f9-b1eb-0c3d08bf04bc"
 		},
 		{
 			"name": "Pin Down",
@@ -24020,7 +24208,8 @@
 			"components": {
 				"s": true,
 				"m": "a ranged weapon worth at least 1 sp"
-			}
+			},
+			"uniqueId": "b17ba806-7819-450a-a7e2-e445fecdb72c"
 		},
 		{
 			"name": "Balthazar's Spirit",
@@ -24129,7 +24318,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 2nd and the increase of initiative increases by {@dice 1d4} for each slot level above 2nd and the adrenaline gain increases by 1 for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "f729b2a8-db3e-4981-834b-709cbb9ed4bd"
 		},
 		{
 			"name": "Mark of Subversion",
@@ -24252,7 +24442,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage each increases by {@dice 2d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "93b30b0d-f769-493b-87dc-e7ca28fd62f4"
 		},
 		{
 			"name": "Fragility",
@@ -24393,7 +24584,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d4} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "c4fe5ff9-9b6b-4df2-a67d-3dd41c5c7731"
 		},
 		{
 			"name": "Whirlwind Blast",
@@ -24533,7 +24725,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "176270c5-23b4-4993-95b1-9392f75cd83c"
 		},
 		{
 			"name": "Distracting Blow",
@@ -24616,7 +24809,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the number of attacks increases by 1 for every two slot levels above 4th. "
 					]
 				}
-			]
+			],
+			"uniqueId": "17978e8b-1720-419e-a588-a3ed805e8972"
 		},
 		{
 			"name": "Revive Animal",
@@ -24710,7 +24904,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the % increases by 10% for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "c3918863-e6f7-4c78-95df-c65dd2ddff6a"
 		},
 		{
 			"name": "Divine Spirit",
@@ -24813,7 +25008,8 @@
 						"When you cast this spell using a spell slot of 5th or 6th level, you can maintain your {@status concentration} on the spell for up to 8 hours. When you use a spell slot of 7th level or higher, you can maintain your {@status concentration} on the spell for up to 24 hours."
 					]
 				}
-			]
+			],
+			"uniqueId": "36d4d9cf-48c0-4839-b23e-9c95dd3a8533"
 		},
 		{
 			"name": "Rotting Flesh",
@@ -24949,7 +25145,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "f4e18f67-4020-47cb-bdd4-4623cb2c75d4"
 		},
 		{
 			"name": "Power Spike",
@@ -25064,7 +25261,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used -1 and the damage increases by {@dice 1d6} for each slot level above 4th."
 					]
 				}
-			]
+			],
+			"uniqueId": "4ffdec56-ba34-47d3-8e11-a486f6ccefa0"
 		},
 		{
 			"name": "Blurred Vision",
@@ -25198,7 +25396,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the radius of the spell increases by 5 feet for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "0bc11928-d49e-4b44-957e-003d986461e6"
 		},
 		{
 			"name": "Dolyak Signet",
@@ -25284,7 +25483,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "494f79a7-1b9e-4ca2-b7fc-aba73d552fe2"
 		},
 		{
 			"name": "Serpent's Quickness",
@@ -25384,7 +25584,8 @@
 						"When you cast this spell using a spell slot of 4th or 5th level, the duration increases to 8 hours. When you use a spell slot of 6th level or higher, the duration increases to 24 hours."
 					]
 				}
-			]
+			],
+			"uniqueId": "cf5f2277-f30b-402a-810d-7401a2af0ed0"
 		},
 		{
 			"name": "Holy Strike",
@@ -25498,7 +25699,8 @@
 					"name": "Smiting Prayers",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "047d13b4-ed91-44cd-b444-48f213bdeb41"
 		},
 		{
 			"name": "Gale",
@@ -25642,7 +25844,8 @@
 					"name": "Air Magic",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "e2edb6a4-60b9-4e32-82b4-4c4acbcc50b8"
 		},
 		{
 			"name": "Protector's Strike",
@@ -25731,7 +25934,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "9df6e335-9c86-4a53-ab02-bb2db98da2dc"
 		},
 		{
 			"name": "Whirling Defense",
@@ -25817,7 +26021,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 round for each slot level above 3rd and the damage increases by {@dice 1d6} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "5e6777cb-8e6e-4daa-a31c-fc0cc2ad6e69"
 		},
 		{
 			"name": "Remove Hex",
@@ -25929,7 +26134,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "3d5c0664-ec76-4eac-bbf4-b5230ac5d85f"
 		},
 		{
 			"name": "Strip Enchantment",
@@ -26045,7 +26251,8 @@
 			],
 			"areaTags": [
 				"MT"
-			]
+			],
+			"uniqueId": "53ea8cef-5f6a-4804-acc7-a3591f19bc86"
 		},
 		{
 			"name": "Drain Enchantment",
@@ -26164,7 +26371,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases each by {@dice 1d8} for each slot level above 2nd and the increase of initiative increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "684b4ca6-6182-4903-b9f3-a0c17fe43ae5"
 		},
 		{
 			"name": "Ice Spear",
@@ -26317,7 +26525,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage and healing each increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "f9fdb51b-7c98-4710-a9ea-8e3a423f71b1"
 		},
 		{
 			"name": "Swift Chop",
@@ -26412,7 +26621,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number of attacks increases by 1 for every two slot levels above 2nd. "
 					]
 				}
-			]
+			],
+			"uniqueId": "e7378922-19f2-43ff-aecf-b34ee369afdb"
 		},
 		{
 			"name": "Call of Protection",
@@ -26507,7 +26717,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number subtracted increases by {@dice 1d12} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "ad89bfcc-4258-43c4-bd93-be476f823019"
 		},
 		{
 			"name": "Succor",
@@ -26610,7 +26821,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 3rd, the healing increases each by 2 for each slot level above 3rd and the number you need to roll decreases by 1 for every two slot levels above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "edb92d4e-dad8-4971-8d46-14d06f04079d"
 		},
 		{
 			"name": "Suffering",
@@ -26749,7 +26961,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "b5f753f9-0407-45ab-b8a3-31a46c327ac8"
 		},
 		{
 			"name": "Inspired Hex",
@@ -26873,7 +27086,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the increase of initiative increases by {@dice 2d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "969cfed4-dd1a-4c81-aab4-ef06204732cb"
 		},
 		{
 			"name": "Stoning",
@@ -27009,7 +27223,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage each increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "e10afe4b-dbe2-4dcd-beb4-620207edbbc0"
 		},
 		{
 			"name": "\"Together as One!\"",
@@ -27096,7 +27311,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d6} for every two slot levels above 5th and the healing increases by {@dice 1d4} for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "713ce044-432c-4b81-918b-be3401986c44"
 		},
 		{
 			"name": "Aura of the Lich",
@@ -27219,7 +27435,8 @@
 						"When you cast this spell using a spell slot of 7th or 8th level, you can maintain your {@status concentration} on the spell for up to 8 hours. When you use a spell slot of 9th level, you can maintain your {@status concentration} on the spell for up to 24 hours."
 					]
 				}
-			]
+			],
+			"uniqueId": "b915d156-5f5c-4957-ac33-4879e237397e"
 		},
 		{
 			"name": "Echo",
@@ -27362,7 +27579,8 @@
 					"name": "Elite",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "f1e35f11-ea8b-4515-87ed-08263a96888e"
 		},
 		{
 			"name": "Ether Prodigy",
@@ -27484,7 +27702,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "1b904bd6-6947-4345-bea1-4b40bc7751d6"
 		},
 		{
 			"name": "Crippling Shot",
@@ -27576,7 +27795,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "1ccc6a64-bab6-4140-b3aa-130afafcf43a"
 		},
 		{
 			"name": "Amity",
@@ -27693,7 +27913,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the radius of the spell increases by 5 feet for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "3790d38a-fbd6-48cb-af46-356201d2fc5b"
 		},
 		{
 			"name": "Blood is Power",
@@ -27820,7 +28041,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number you need to roll decreases by 1 for every 2 slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "a1c3e4e0-3621-47e4-9801-00819859daa2"
 		},
 		{
 			"name": "Energy Drain",
@@ -27953,7 +28175,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the reduction of initiative increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "e10ee1c0-fedd-49c7-a8b6-f452fb23404f"
 		},
 		{
 			"name": "Ether Renewal",
@@ -28074,7 +28297,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 1d6} for each slot level above 2nd and the increase of initiative increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "24dd594c-9c25-4402-beda-a12b145db9ef"
 		},
 		{
 			"name": "Escape",
@@ -28176,7 +28400,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "5fef1ed0-a0d2-494a-8184-2a960d09f8b8"
 		},
 		{
 			"name": "Aura of Faith",
@@ -28298,7 +28523,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the number subtracted increases by {@dice 2d4} for each slot level above 2nd and the % increases by 10% for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "21755d5a-f342-4191-9d25-9b53a9a8a76c"
 		},
 		{
 			"name": "Feast of Corruption",
@@ -28431,7 +28657,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage each increases by {@dice 1d8} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "2bdebe9f-187e-4b62-aaf3-76220ac5131f"
 		},
 		{
 			"name": "Energy Surge",
@@ -28567,7 +28794,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "bee597d2-9e28-4b4b-905b-e1a829c2dc8e"
 		},
 		{
 			"name": "Glimmering Mark",
@@ -28699,7 +28927,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d6} for each slot level above 4th."
 					]
 				}
-			]
+			],
+			"uniqueId": "9d6a5729-ce70-4ebc-becb-a7947dd6e1cd"
 		},
 		{
 			"name": "\"Charge!\"",
@@ -28799,7 +29028,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "021471fa-191e-498e-a9d1-795cb1f0fe30"
 		},
 		{
 			"name": "Ferocious Strike",
@@ -28914,7 +29144,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "e81b1846-7e9a-45a1-b5b4-80f5b5d071c2"
 		},
 		{
 			"name": "Judgment Strike",
@@ -29041,7 +29272,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"uniqueId": "47250fc0-3037-4f5b-a700-31758c2a1d7e"
 		},
 		{
 			"name": "Grenth's Balance",
@@ -29152,7 +29384,8 @@
 						"When you cast this spell using a spell slot of 9th level, the target makes its saving throw with disadvantage."
 					]
 				}
-			]
+			],
+			"uniqueId": "d319825c-bed0-441f-b347-d1f646201506"
 		},
 		{
 			"name": "Fevered Dreams",
@@ -29297,7 +29530,8 @@
 			],
 			"conditionInflict": [
 				"dazed|guildwars"
-			]
+			],
+			"uniqueId": "2e8a07ce-60de-4c53-9515-830b179a5afb"
 		},
 		{
 			"name": "Glyph of Energy",
@@ -29409,7 +29643,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the level of the spell increases by 1 for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "30954cae-858a-4159-8a20-72b2426547be"
 		},
 		{
 			"name": "\"Victory Is Mine!\"",
@@ -29505,7 +29740,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "1ca38cad-5228-4e1d-b262-256a01b26fc7"
 		},
 		{
 			"name": "Greater Conflagration",
@@ -29608,7 +29844,8 @@
 			],
 			"meta": {
 				"ritual": true
-			}
+			},
+			"uniqueId": "b3d12998-4ce2-46db-8fba-657066a8dee1"
 		},
 		{
 			"name": "Life Barrier",
@@ -29723,7 +29960,8 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the reduction to your spell save DC and spell attack bonus increases by 1 for each slot level above 4th, and you can target one additional creature for each slot level above 4th."
 					]
 				}
-			]
+			],
+			"uniqueId": "7853d1b1-818a-4df1-a5f3-b63590c52528"
 		},
 		{
 			"name": "Life Transfer",
@@ -29878,7 +30116,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "f4ed005d-5ab6-4d3f-8eb2-e41a723d8a91"
 		},
 		{
 			"name": "Illusionary Weaponry",
@@ -29979,7 +30218,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c25f5e73-224b-445e-afec-510ee212806a"
 		},
 		{
 			"name": "Glyph of Renewal",
@@ -30110,7 +30350,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the amount of time this spell can trigger increases by 1 for every two slot levels above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "4c0fc253-4391-4bd1-9fd2-9934d957c49b"
 		},
 		{
 			"name": "Battle Rage",
@@ -30212,7 +30453,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "4ebba8e1-3689-47e8-a4a3-6c14e39c424f"
 		},
 		{
 			"name": "Incendiary Arrows",
@@ -30308,7 +30550,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage of the {@condition burning|GuildWars} condition increases by {@dice 2d4} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "63e9e982-9bcf-441d-88b4-428610d27cf8"
 		},
 		{
 			"name": "Mark of Protection",
@@ -30426,7 +30669,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the maximum increases by 5 for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "d89144cb-894f-4b9f-b912-bde1c53290f5"
 		},
 		{
 			"name": "Offering of Blood",
@@ -30545,7 +30789,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "d82020b2-3518-4f59-8b45-0ca8c96647e2"
 		},
 		{
 			"name": "Ineptitude",
@@ -30679,7 +30924,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 2d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "733f7c1e-10bc-42c2-8915-732cde123e2b"
 		},
 		{
 			"name": "Mind Burn",
@@ -30828,7 +31074,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the fire damage each increases by {@dice 1d6} for each slot level above 1st and the damage of the {@condition burning|GuildWars} condition increases by {@dice 1d4} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "77b6ae96-b1c3-4961-9762-f42866c1952d"
 		},
 		{
 			"name": "Mind Freeze",
@@ -30985,7 +31232,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "86e1987e-2d2b-405f-836e-08d24487e758"
 		},
 		{
 			"name": "Mind Shock",
@@ -31134,7 +31382,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"uniqueId": "8066e8f7-d07c-4a48-b955-cce8aa7289ef"
 		},
 		{
 			"name": "Cleave",
@@ -31248,7 +31497,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "efbef0e4-b7f6-42f0-8abc-e032161a2055"
 		},
 		{
 			"name": "Marksperson's Wager",
@@ -31348,7 +31598,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the increase of initiative increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "f11b48a2-c7c9-4b13-b125-2d76e023603c"
 		},
 		{
 			"name": "Martyr",
@@ -31449,7 +31700,8 @@
 			"components": {
 				"v": true,
 				"s": true
-			}
+			},
+			"uniqueId": "d8affc32-7b2f-4288-8891-4150bf87fa7a"
 		},
 		{
 			"name": "Order of the Vampire",
@@ -31594,7 +31846,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "cb18e0dd-8074-4be2-b4a6-9bef326eb848"
 		},
 		{
 			"name": "Defy Pain",
@@ -31700,7 +31953,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, your hit points increase by an additional {@dice 2d10} for each slot level above 2nd and the number subtracted increases by {@dice 1d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "5bf054bd-09f0-470d-89ba-832857f40c87"
 		},
 		{
 			"name": "Devastating Bash",
@@ -31822,7 +32076,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "3aee7717-95d8-4aa7-85a1-4616a8ca1560"
 		},
 		{
 			"name": "Melandru's Arrows",
@@ -31931,7 +32186,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d6} for each slot level above 2nd and the damage of the {@condition bleeding|GuildWars} condition increases by {@dice 1d4} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "1f6c73bf-0284-43ca-b0a8-1e90dda39e92"
 		},
 		{
 			"name": "Peace and Harmony",
@@ -32047,7 +32303,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, one additional spell and condition ends for each slot level above 2nd and the duration increases by 1 round for every two slot levels above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "39ce8ec3-0359-49f6-a35c-c4e9302ce81d"
 		},
 		{
 			"name": "Plague Signet",
@@ -32173,7 +32430,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "1ad623bd-51ea-42f9-89ba-4933dba4541b"
 		},
 		{
 			"name": "Dwarven Battle Stance",
@@ -32268,7 +32526,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the duration increases by 1 round for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "af2af80c-f5d9-4b7b-85a4-c4184d171fc0"
 		},
 		{
 			"name": "Melandru's Resilience",
@@ -32389,7 +32648,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 1 round for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "5c3a19c9-07c4-4d69-be81-424ac6c13101"
 		},
 		{
 			"name": "Restore Condition",
@@ -32510,7 +32770,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "cde272fe-0652-4830-a9c1-3e0fa5736e63"
 		},
 		{
 			"name": "Soul Leech",
@@ -32643,7 +32904,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "eba2cd25-8684-45ad-8d3c-16861e5a1bf7"
 		},
 		{
 			"name": "Mantra of Recall",
@@ -32765,7 +33027,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the level of the spell increases by 1 for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "034f11ae-c54b-40fa-8a46-42fe110d592b"
 		},
 		{
 			"name": "Mist Form",
@@ -32903,7 +33166,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "8dfe2825-5398-48b5-a753-e15a7db4fd5c"
 		},
 		{
 			"name": "Earth Shaker",
@@ -33015,7 +33279,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"uniqueId": "15ecce96-b77b-49ce-8799-139f70c8f19b"
 		},
 		{
 			"name": "Oath Shot",
@@ -33105,7 +33370,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "9d125bf3-a48a-430d-82da-c3c8b9ed6bff"
 		},
 		{
 			"name": "Shield of Regeneration",
@@ -33235,7 +33501,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "b2ce5618-62f2-46cd-ab7e-aa50098eea8f"
 		},
 		{
 			"name": "Soul Taker",
@@ -33325,7 +33592,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the additional weapon damage increases by {@dice 1d6} for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "6fdbe461-bdd1-4177-9633-20728ef8d318"
 		},
 		{
 			"name": "Mantra of Recovery",
@@ -33453,7 +33721,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "87e47bbd-c37f-4d07-8992-2d73cf2ea14e"
 		},
 		{
 			"name": "Obsidian Flesh",
@@ -33566,7 +33835,8 @@
 						"When you cast this spell using a spell slot of 7th level or higher, the duration increases by 1 round for each slot level above 6th."
 					]
 				}
-			]
+			],
+			"uniqueId": "351848d5-f6c6-4edf-af3b-0e6823993dc6"
 		},
 		{
 			"name": "Flourish",
@@ -33661,7 +33931,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the level of the spell increases by 1 for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "1257fcb9-e149-4bff-a06f-0db9002fb9e0"
 		},
 		{
 			"name": "Poison Arrow",
@@ -33779,7 +34050,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "ea918f1c-80c4-4231-baf7-e40fd9f15594"
 		},
 		{
 			"name": "Spiteful Spirit",
@@ -33930,7 +34202,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "d7ca5349-8a24-4c57-aa9c-9abc8f15b88f"
 		},
 		{
 			"name": "Migraine",
@@ -34030,7 +34303,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the damage each increases by {@dice 2d6} for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "d9cba666-289f-4b15-9059-9645bf7ad67b"
 		},
 		{
 			"name": "Over the Limit",
@@ -34122,7 +34396,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "eee71fda-cff5-4c33-8e3f-0f6570aa0bfb"
 		},
 		{
 			"name": "Gladiator's Defense",
@@ -34222,7 +34497,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage each increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "609eaf86-0ff1-46f3-ae91-12568dbef61f"
 		},
 		{
 			"name": "Practiced Stance",
@@ -34322,7 +34598,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the level of the spell slot increases by 1 for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "4154ffd3-8412-44a2-b59f-39caa0139d60"
 		},
 		{
 			"name": "Spell Breaker",
@@ -34431,7 +34708,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "8531731d-2db5-4e4d-aaa3-99e699e4ac66"
 		},
 		{
 			"name": "Tainted Flesh",
@@ -34584,7 +34862,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st, and you can target one additional creature for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "93e6feda-c109-43e3-8aac-edd35fc6613e"
 		},
 		{
 			"name": "Panic",
@@ -34684,7 +34963,8 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the duration increases by 1 round for each slot level above 5th."
 					]
 				}
-			]
+			],
+			"uniqueId": "845cc62c-ff1e-4ac0-9688-e59507eff6bf"
 		},
 		{
 			"name": "Massive Thunderclap",
@@ -34817,7 +35097,8 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage each increases by {@dice 1d6} for each slot level above 3rd."
 					]
 				}
-			]
+			],
+			"uniqueId": "7e6ce026-5ecb-461e-b0f8-eb62dda6f1f2"
 		},
 		{
 			"name": "Punishing Shot",
@@ -34913,7 +35194,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "685bdb9c-985d-4e95-9913-96f7c2b34959"
 		},
 		{
 			"name": "Hundred Blades",
@@ -35053,7 +35335,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "5faaeecd-07f5-46c8-8df2-f91189aa6f9c"
 		},
 		{
 			"name": "Unyielding Aura",
@@ -35160,7 +35443,8 @@
 						"When you cast this spell using a spell slot of 7th level or higher, the healing increases by {@dice 2d4} for each slot level above 6th."
 					]
 				}
-			]
+			],
+			"uniqueId": "e3472a8e-fb6d-40f0-8ba1-e4a64165955d"
 		},
 		{
 			"name": "Well of Power",
@@ -35284,7 +35568,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases each by {@dice 2d6} for each slot level above 2nd and the number you need to roll decreases by 1 for every 2 slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "8b98bd44-0565-44df-8e39-cd3065feca57"
 		},
 		{
 			"name": "Signet of Midnight",
@@ -35397,7 +35682,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "92628e75-f483-4f2a-b354-705b48ca0c95"
 		},
 		{
 			"name": "Ward Against Harm",
@@ -35543,7 +35829,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "f7fcec9c-1da3-4b41-be7d-293def4adf94"
 		},
 		{
 			"name": "Thousand Weapons Stance",
@@ -35628,7 +35915,8 @@
 			],
 			"components": {
 				"s": true
-			}
+			},
+			"uniqueId": "6030a9bf-27d3-484a-b288-2de33c273e15"
 		},
 		{
 			"name": "Spike Trap",
@@ -35741,7 +36029,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 2d8} for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "c5203637-c6b3-48d2-b06b-29f39c21b1b4"
 		},
 		{
 			"name": "Word of Healing",
@@ -35896,7 +36185,8 @@
 					"name": "Elite",
 					"source": "EmmargySurged"
 				}
-			]
+			],
+			"uniqueId": "59f1ba8d-cce7-4fb7-9f0e-661ec8d60fe8"
 		},
 		{
 			"name": "Wither",
@@ -36051,7 +36341,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage each increases by {@dice 1d10} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "31bf8a3c-3d48-4e34-a77f-604889bd8971"
 		},
 		{
 			"name": "Time Ward",
@@ -36164,7 +36455,8 @@
 						"When you cast this spell using a spell slot of 9th level, the duration increases to 1 hour."
 					]
 				}
-			]
+			],
+			"uniqueId": "f60c55b6-7f22-45ae-a453-f9e6d7a10f9a"
 		},
 		{
 			"name": "Water Trident",
@@ -36318,7 +36610,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "c0591287-7435-4113-aa75-9ea0ed57dfef"
 		},
 		{
 			"name": "Shadow Theft",
@@ -36418,7 +36711,8 @@
 					"name": "Elite",
 					"source": "GuildWars"
 				}
-			]
+			],
+			"uniqueId": "c7610161-144b-454e-9b34-819e94aa27ba"
 		},
 		{
 			"name": "Signet of Judgment",
@@ -36544,7 +36838,8 @@
 			],
 			"conditionInflict": [
 				"prone"
-			]
+			],
+			"uniqueId": "9e82be22-f6fb-46c8-b1e9-1005692ae28b"
 		},
 		{
 			"name": "Mend Ailment",
@@ -36669,7 +36964,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d4} for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "ebe925e1-8581-4285-a9e0-b83c7357d1a0"
 		},
 		{
 			"name": "Glyph of Concentration",
@@ -36791,7 +37087,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the amount of time this spell can trigger increases by 1 for each slot level above 1st."
 					]
 				}
-			]
+			],
+			"uniqueId": "14a37fee-292a-4e99-8588-4690e0a3ee0f"
 		},
 		{
 			"name": "Bull's Strike",
@@ -36882,7 +37179,8 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the number of attacks increases by 1 for every two slot levels above 1st. "
 					]
 				}
-			]
+			],
+			"uniqueId": "65c36705-e7f0-4a94-a07c-c188fd66889d"
 		},
 		{
 			"name": "Plague Touch",
@@ -37010,7 +37308,8 @@
 						"When you cast this spell using a spell slot of 3rd level or higher, copy one additional condition for each slot level above 2nd."
 					]
 				}
-			]
+			],
+			"uniqueId": "d8a52ed1-257d-42d7-8a4d-64dfd37ad155"
 		},
 		{
 			"name": "Griffon's Sweep",
@@ -37100,7 +37399,8 @@
 			"components": {
 				"s": true,
 				"m": "a melee weapon worth at least 1 sp"
-			}
+			},
+			"uniqueId": "6d621888-525f-45af-877e-3fe825864f5b"
 		}
 	],
 	"table": [
@@ -39502,7 +39802,8 @@
 			},
 			"damageTags": [
 				"B"
-			]
+			],
+			"uniqueId": "be44691c-f1a7-458a-992f-077ecfc69074"
 		},
 		{
 			"name": "Charr",
@@ -39579,7 +39880,8 @@
 			"token": {
 				"name": "Tabaxi Hunter",
 				"source": "ToA"
-			}
+			},
+			"uniqueId": "603086fd-d3a3-4458-b52b-f66165806350"
 		},
 		{
 			"name": "Grasp of Chaos",
@@ -39696,7 +39998,8 @@
 			],
 			"savingThrowForced": [
 				"strength"
-			]
+			],
+			"uniqueId": "00519a20-1aaa-4009-81f5-7be56644388e"
 		},
 		{
 			"name": "Oni",
@@ -39833,7 +40136,8 @@
 			],
 			"damageTags": [
 				"S"
-			]
+			],
+			"uniqueId": "868fb2e9-72fa-4be4-8020-22ede6b9fbf7"
 		},
 		{
 			"name": "Nature Ritual",
@@ -39896,7 +40200,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "a6dfce0e-10a2-449c-88f3-18128f288f8a"
 		},
 		{
 			"name": "Charr Axe Fiend Boss",
@@ -40076,7 +40381,8 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "2461c996-0ae2-4da9-b74f-e50e979aae17"
 		},
 		{
 			"name": "Charr Stalker Boss",
@@ -40257,7 +40563,8 @@
 			],
 			"damageTags": [
 				"S"
-			]
+			],
+			"uniqueId": "438abd00-320f-44f3-8d52-8e9096ebcb73"
 		},
 		{
 			"name": "Charr Martyr Boss",
@@ -40429,7 +40736,8 @@
 			],
 			"damageTags": [
 				"R"
-			]
+			],
+			"uniqueId": "55bfa50a-3a36-45fd-8ae9-ac8a58de04dc"
 		},
 		{
 			"name": "Charr Ashen Claw Boss",
@@ -40608,7 +40916,8 @@
 			"savingThrowForcedSpell": [
 				"constitution",
 				"wisdom"
-			]
+			],
+			"uniqueId": "95b4f7cd-a91e-499b-af0c-df1d950c3230"
 		},
 		{
 			"name": "Charr Chaot Boss",
@@ -40794,7 +41103,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"charisma"
-			]
+			],
+			"uniqueId": "e5204409-dd37-4a02-b45b-e48f85687a91"
 		},
 		{
 			"name": "Charr Flame Wielder Boss",
@@ -40960,7 +41270,8 @@
 			],
 			"damageTags": [
 				"F"
-			]
+			],
+			"uniqueId": "09efd5fa-9fcd-454b-a727-c0b26d6acd4d"
 		},
 		{
 			"name": "Charr Axe Fiend",
@@ -41110,7 +41421,8 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "fff1c285-1ac9-42de-92e6-6afecd3c8621"
 		},
 		{
 			"name": "Charr Stalker",
@@ -41261,7 +41573,8 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "829f4d1b-232e-424a-b7b2-47934e82ff6f"
 		},
 		{
 			"name": "Charr Martyr",
@@ -41400,7 +41713,8 @@
 			],
 			"damageTags": [
 				"R"
-			]
+			],
+			"uniqueId": "4e431ec1-154d-48d6-ae96-025a76dfec60"
 		},
 		{
 			"name": "Charr Ashen Claw",
@@ -41540,7 +41854,8 @@
 			],
 			"damageTags": [
 				"N"
-			]
+			],
+			"uniqueId": "95999c54-6039-47ba-9f72-4872cb847681"
 		},
 		{
 			"name": "Charr Chaot",
@@ -41680,7 +41995,8 @@
 			],
 			"damageTags": [
 				"Y"
-			]
+			],
+			"uniqueId": "cebcf9bd-48ff-4061-8b42-f1ae265d1eb8"
 		},
 		{
 			"name": "Charr Flame Wielder",
@@ -41819,7 +42135,8 @@
 			],
 			"damageTags": [
 				"F"
-			]
+			],
+			"uniqueId": "11bfbdf1-27b9-46df-9c9f-009475eafb45"
 		},
 		{
 			"name": "Whiptail Devourer",
@@ -41992,7 +42309,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "c5dad573-1371-4393-bc24-0536e1409d1c"
 		},
 		{
 			"name": "Carrion Devourer",
@@ -42161,7 +42479,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "f1982925-d685-4b74-9c70-dd415d5365e2"
 		},
 		{
 			"name": "Plague Devourer",
@@ -42327,7 +42646,8 @@
 			],
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "d911c8a5-3fb4-4cf0-8d0b-a75dce3e98d0"
 		},
 		{
 			"name": "Hydra (Ascalon)",
@@ -42482,7 +42802,8 @@
 			},
 			"damageTags": [
 				"P"
-			]
+			],
+			"uniqueId": "baca2ae3-f199-4b2f-b633-4e0daf6996ca"
 		},
 		{
 			"name": "Resurrect Gargoyle",
@@ -42603,7 +42924,8 @@
 			],
 			"damageTags": [
 				"L"
-			]
+			],
+			"uniqueId": "74c2296e-d533-4603-9da9-cbc1304213d9"
 		},
 		{
 			"name": "Shatter Gargoyle",
@@ -42744,7 +43066,8 @@
 			],
 			"damageTags": [
 				"Y"
-			]
+			],
+			"uniqueId": "2e945508-1e14-4c28-aacf-4e57148bccda"
 		},
 		{
 			"name": "Flash Gargoyle",
@@ -42891,7 +43214,8 @@
 			],
 			"damageTags": [
 				"L"
-			]
+			],
+			"uniqueId": "48e42078-a571-4351-b666-e3dacef0ae68"
 		},
 		{
 			"name": "Grawl (Ascalon)",
@@ -43053,7 +43377,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "d767c439-bfec-467c-9f4e-fa922e0e166e"
 		},
 		{
 			"name": "Grawl Ulodyte",
@@ -43202,7 +43527,8 @@
 			],
 			"damageTags": [
 				"R"
-			]
+			],
+			"uniqueId": "65ed40e5-1a27-4505-b175-5c66292b15fe"
 		},
 		{
 			"name": "Boulder Elemental",
@@ -43324,7 +43650,8 @@
 			],
 			"damageTags": [
 				"B"
-			]
+			],
+			"uniqueId": "49244d89-02d9-41f8-8c21-5f19647dc38c"
 		},
 		{
 			"name": "Margonite Executioner",
@@ -43483,7 +43810,8 @@
 			},
 			"damageTags": [
 				"B"
-			]
+			],
+			"uniqueId": "0a859511-cab8-4adb-9cb8-22d123e72722"
 		},
 		{
 			"name": "White Mantle Knight",
@@ -43621,7 +43949,8 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "17709db3-ba93-40c9-b88f-2b5965f59ad7"
 		},
 		{
 			"name": "Justiciar Hablion",
@@ -43771,7 +44100,8 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "8454fe8e-7a9f-4c9a-86b5-a8f710f75c41"
 		},
 		{
 			"name": "Wooden Charr Trebuchet",
@@ -43914,7 +44244,8 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
-			]
+			],
+			"uniqueId": "893554b6-2e57-4c17-861e-aa5e777c2e7c"
 		},
 		{
 			"name": "Mage channeling an Obelisk",
@@ -44039,7 +44370,8 @@
 			},
 			"damageTags": [
 				"L"
-			]
+			],
+			"uniqueId": "159f31be-3224-4401-8903-dad48c0b6234"
 		},
 		{
 			"name": "Bonfaaz Burntfur",
@@ -44271,7 +44603,8 @@
 			],
 			"damageTagsSpell": [
 				"F"
-			]
+			],
+			"uniqueId": "64d9c38f-acde-4f3f-9478-77247d70b671"
 		},
 		{
 			"name": "Modniir Centaur",
@@ -44400,7 +44733,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "e24f02bb-94db-424d-ba04-2742af3f5bca"
 		},
 		{
 			"name": "Modniir Longbow",
@@ -44578,7 +44912,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"strength"
-			]
+			],
+			"uniqueId": "58380c8d-c7b0-4463-9be3-fafbbbea141e"
 		},
 		{
 			"name": "Modniir Longbow Boss",
@@ -44792,7 +45127,8 @@
 			],
 			"savingThrowForcedSpell": [
 				"strength"
-			]
+			],
+			"uniqueId": "c0491fca-f65d-400b-8d87-8ca2e7884292"
 		},
 		{
 			"name": "Modniir Warrior",
@@ -44959,7 +45295,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "dcb1dd0b-d32b-480a-a443-bb40cc2abb16"
 		},
 		{
 			"name": "Modniir Warrior Boss",
@@ -45167,7 +45504,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "5ef302a3-58cc-4a9d-b451-7efb8a10d1d9"
 		},
 		{
 			"name": "Modniir Protector",
@@ -45325,7 +45663,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "45e95d35-b74b-442c-a540-ff01ec05d899"
 		},
 		{
 			"name": "Modniir Protector Boss",
@@ -45507,7 +45846,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "08164d88-2d38-4a9d-855f-d75fccb287a6"
 		},
 		{
 			"name": "Drake",
@@ -45613,7 +45953,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "ddb95cfc-b1b3-477b-8d5b-0cf21df0d106"
 		},
 		{
 			"name": "Ice Drake Elementalist Boss",
@@ -45800,7 +46141,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "c44d2f80-f3f0-4c30-9021-7f8fe9b834fb"
 		},
 		{
 			"name": "Dwarf",
@@ -45907,7 +46249,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "808112f0-17a5-4873-a863-cc3acaf56f87"
 		},
 		{
 			"name": "Deldrimor Dwarf",
@@ -46025,7 +46368,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "7b169359-c3f0-4da2-9747-7f84cfdec588"
 		},
 		{
 			"name": "Stone Summit Dwarf",
@@ -46142,7 +46486,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "4863abd1-3f6a-4084-8952-f3392f1a4bd5"
 		},
 		{
 			"name": "Stone Summit Beastmaster",
@@ -46325,7 +46670,8 @@
 			"damageTags": [
 				"B",
 				"S"
-			]
+			],
+			"uniqueId": "9f770495-bd50-4ea4-9714-ba4e20070407"
 		},
 		{
 			"name": "Stone Summit Sage",
@@ -46494,7 +46840,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "9a603f53-a8da-4142-9240-5b8ea11fc28f"
 		},
 		{
 			"name": "Stone Summit Sage Boss",
@@ -46694,7 +47041,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "e52b11ea-8bdd-4c00-8ab7-6c5cf24bb62a"
 		},
 		{
 			"name": "Stone Summit Howler",
@@ -46868,7 +47216,8 @@
 			],
 			"damageTagsSpell": [
 				"N"
-			]
+			],
+			"uniqueId": "09bcf7a1-7c8e-46b9-bf3e-e7ed2308991c"
 		},
 		{
 			"name": "Stone Summit Howler Boss",
@@ -47072,7 +47421,8 @@
 			],
 			"damageTagsSpell": [
 				"N"
-			]
+			],
+			"uniqueId": "84f19114-ec1d-432f-8249-9296be57954a"
 		},
 		{
 			"name": "Stone Summit Crusher",
@@ -47236,7 +47586,8 @@
 			"damageTags": [
 				"B",
 				"P"
-			]
+			],
+			"uniqueId": "f81fc9e5-a77a-4432-bbcb-1c362d74973f"
 		},
 		{
 			"name": "Stone Summit Axe Wielder",
@@ -47405,7 +47756,8 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "d6be106c-cbb4-4725-837c-662499d62a4c"
 		},
 		{
 			"name": "Stone Summit Axe Wielder Boss",
@@ -47604,9 +47956,11 @@
 			"damageTags": [
 				"P",
 				"S"
-			]
+			],
+			"uniqueId": "35723bd0-b2a5-4e6f-8e32-079cafc43868"
 		},
 		{
+			"uniqueId": "e21bca30-06a5-43e6-9fa2-06ce262ade76",
 			"name": "Test McTestface",
 			"size": [
 				"S"
@@ -47642,7 +47996,15 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "7"
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Angelic Weapons (Solar)",
+					"entries": [
+						"The test mctestface's weapon attacks are magical. When the test mctestface hits with any weapon, the weapon deals an extra {@dice 6d8} radiant damage."
+					]
+				}
+			]
 		}
 	],
 	"legendaryGroup": [
@@ -47657,7 +48019,8 @@
 				"If the Stormcaller horn has been blown, all charr become vulnerable to all damage, and deal only half damage."
 			],
 			"mythicEncounter": [],
-			"source": "GuildWars"
+			"source": "GuildWars",
+			"uniqueId": "8a5b180b-7681-48d4-8769-3f1397acc9ef"
 		}
 	],
 	"race": [
