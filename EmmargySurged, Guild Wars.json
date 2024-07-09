@@ -22,12 +22,12 @@
 				],
 				"convertedBy": [],
 				"color": "804000",
-				"version": "1.0.2"
+				"version": "1.0.0"
 			}
 		],
 		"status": "ready",
 		"dateAdded": 1701938868,
-		"dateLastModified": 1720545523
+		"dateLastModified": 1701938868
 	},
 	"spell": [
 		{
@@ -39799,7 +39799,7 @@
 			"uniqueId": "be44691c-f1a7-458a-992f-077ecfc69074",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokes/Bone_Horror_Token.png"
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Bone_Horror_Token.png"
 			},
 			"damageTags": [
 				"B"
@@ -39872,16 +39872,16 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/a/ae/Charr_ranger.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Charr_Stalker.jpg"
 						}
 					}
 				]
 			},
-			"token": {
-				"name": "Tabaxi Hunter",
-				"source": "ToA"
-			},
-			"uniqueId": "603086fd-d3a3-4458-b52b-f66165806350"
+			"uniqueId": "603086fd-d3a3-4458-b52b-f66165806350",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Charr_Stalker_Token.png"
+			}
 		},
 		{
 			"name": "Grasp of Chaos",
@@ -40824,14 +40824,10 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/3/32/Roarst_One_Eye.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Charr_Ashen_Claw_Boss.jpg"
 						}
 					}
 				]
-			},
-			"token": {
-				"name": "Tabaxi Hunter",
-				"source": "ToA"
 			},
 			"save": {
 				"wis": "+7",
@@ -40907,17 +40903,14 @@
 			"miscTags": [
 				"RW"
 			],
+			"uniqueId": "95b4f7cd-a91e-499b-af0c-df1d950c3230",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Charr_Ashen_Claw_Boss_Token.png"
+			},
 			"damageTags": [
 				"N"
-			],
-			"damageTagsSpell": [
-				"N"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"wisdom"
-			],
-			"uniqueId": "95b4f7cd-a91e-499b-af0c-df1d950c3230"
+			]
 		},
 		{
 			"name": "Charr Chaot Boss",
@@ -41798,14 +41791,10 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/0/0c/Charr_necromancer.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Charr_Ashen_Claw.jpg"
 						}
 					}
 				]
-			},
-			"token": {
-				"name": "Tabaxi Hunter",
-				"source": "ToA"
 			},
 			"save": {
 				"cha": "+6",
@@ -41852,10 +41841,14 @@
 			"miscTags": [
 				"RW"
 			],
+			"uniqueId": "95999c54-6039-47ba-9f72-4872cb847681",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Charr_Ashen_Claw_Token.png"
+			},
 			"damageTags": [
 				"N"
-			],
-			"uniqueId": "95999c54-6039-47ba-9f72-4872cb847681"
+			]
 		},
 		{
 			"name": "Charr Chaot",
@@ -42356,7 +42349,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/c/c4/Red_devourer.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Carrion_Devourer.jpg"
 						}
 					}
 				]
@@ -42477,10 +42470,14 @@
 				"MW",
 				"RW"
 			],
+			"uniqueId": "f1982925-d685-4b74-9c70-dd415d5365e2",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Carrion_Devourer_Token.png"
+			},
 			"damageTags": [
 				"P"
-			],
-			"uniqueId": "f1982925-d685-4b74-9c70-dd415d5365e2"
+			]
 		},
 		{
 			"name": "Plague Devourer",
@@ -43569,7 +43566,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/a/af/Elemental_Stone.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Boulder_Elemental.jpg"
 						}
 					}
 				]
@@ -43648,10 +43645,14 @@
 				"MW",
 				"RW"
 			],
+			"uniqueId": "49244d89-02d9-41f8-8c21-5f19647dc38c",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Boulder_Elemental_Token.png"
+			},
 			"damageTags": [
 				"B"
-			],
-			"uniqueId": "49244d89-02d9-41f8-8c21-5f19647dc38c"
+			]
 		},
 		{
 			"name": "Margonite Executioner",
@@ -44456,14 +44457,10 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://wiki.guildwars.com/images/7/75/Smoke_Kindlefist.jpg"
+							"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Portraits/Charr_Flame_Wielder_Boss.jpg"
 						}
 					}
 				]
-			},
-			"token": {
-				"name": "Tabaxi Hunter",
-				"source": "ToA"
 			},
 			"save": {
 				"con": "+9",
@@ -44591,6 +44588,7 @@
 				"name": "Bonfaaz Burntfur",
 				"source": "GuildWars"
 			},
+			"uniqueId": "64d9c38f-acde-4f3f-9478-77247d70b671",
 			"damageTagsLegendary": [
 				"B",
 				"F"
@@ -44598,13 +44596,16 @@
 			"savingThrowForcedLegendary": [
 				"dexterity"
 			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/EmmargySurged/Prophecies/main/Assets/Tokens/Charr_Flame_Wielder_Boss_Token.png"
+			},
 			"damageTags": [
 				"F"
 			],
 			"damageTagsSpell": [
 				"F"
-			],
-			"uniqueId": "64d9c38f-acde-4f3f-9478-77247d70b671"
+			]
 		},
 		{
 			"name": "Modniir Centaur",
