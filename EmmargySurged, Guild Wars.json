@@ -1,16 +1,3 @@
-
-Manage Homebrew
-
-View, Add, and Delete Homebrew.
-
-    Home
-    Rules
-    Player
-    Dungeon Master
-    References
-    Utilities
-    Settings
-
 {
 	"_meta": {
 		"sources": [
@@ -50852,4 +50839,3 @@ View, Add, and Delete Homebrew.
 		}
 	]
 }
-
